@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Rajdhani&display=swap');
+
+
+.redspan {
+  color: #dc3545;
+}
+
+
+
+.navbar {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+
+
+.navbar .navbar-brand,
+#main-footer h3
+{
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
+}
+
+
+
+.navbar .nav-item .nav-link {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+
+.navbar .nav-item .nav-link .fas {
+  font-size: 22px;
+}
+
+
+
+.navbar .nav-item.active {
+  border-left: 3px solid #444;
+
+}
+
+
+
+.carousel-item {
+  height: 450px;
+}
+
+
+
+#FAQ-section a {
+  color: #fff;
+}
+
+
+
+#FAQ-section .card {
+  background-color: #444;
+}
+
+
+
+.carousel-img-1 {
+  background: url(../img/carousel1.jpg);
+  background-size: cover;
+  background-position: 50% 35%;
+  background-attachment: fixed;
+}
+
+
+
+.carousel-img-2 {
+  background: url(../img/carousel2.jpg);
+  background-size: cover;
+  background-position: 50% 40%;
+  background-attachment: fixed;
+}
+
+
+
+.carousel-img-3 {
+  background: url(../img/carousel3.jpg);
+  background-size: cover;
+  background-position: 50% 20%;
+  background-attachment: fixed;
+}
+
+
+
+#are-you-ready {
+  position: relative;
+  background: url(../img/lights.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  min-height: 200px;
+}
+
+
+
+.dark-overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+#video-play {
+  position: relative;
+  background: url(../img/media.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  min-height: 200px;
+}
+
+
+
+#video-play a {
+  color: #fff;
+}
+
+
+
+.center-heading {
+  width: 50%;
+  margin: auto;
+  border-bottom: #ddd solid 1px;
+}
+
+
+
+#services-header {
+  background: url(../img/head.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  min-height: 300px;
+}
+
+
+
+#contact-header {
+  background: url(../img/head.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  min-height: 300px;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .sm-responsive {
+    margin-bottom: 2rem;
+  }
+
+  .text-center-xs {
+    text-align: center;
+  }
+
+  .center-heading {
+    width: 100%;
+  }
+
+}
+
+
+@media (max-width: 576px) {
+  #newsletter .form-control {
+    margin-bottom: 0.75rem;
+  }
+
+  .xm-responive {
+    margin-bottom: 1rem;
+  }
+
+}
+
+
+
+@media (max-width: 576px) and (min-width: 526px) {
+  .vertical-center-xs {
+    margin-top: 1.75rem;
+  }
+
+}
