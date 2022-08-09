@@ -9,7 +9,7 @@ Tools used:
 
 Main Features:
   - Fully responsive to all screen sizes (using bootstrap and custom media queries)
-  - Collapsable text areas
+  - Collapsible text areas
   - Sliding Carousels
   - Expandable images
   - Video play button
